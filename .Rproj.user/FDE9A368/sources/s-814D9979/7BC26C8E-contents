@@ -1,0 +1,76 @@
+# Defenders of Wildlife branded color palettes for use in scientific figure development. 
+
+# All listed Defenders branded colors
+defenders_colors <- c(
+  `orange`="#e36f1e",
+  `brown`="#b2740e",
+  `red`="#db1537",
+  `yellow`="#ffcf00",
+  `dkgreen`="#00583d",
+  `ltgreen`="#387c2b",
+  `blue`="#005596",
+  `purple`="#7a3777",
+  `gray`="#e6e3dd",
+  `tan`="#f4eedc")
+
+defenders_cols <- function(...) {
+  cols <- c(...)
+  
+  if (is.null(cols))
+    return (defenders_cols)
+  
+  defenders_colors[cols]
+}
+
+# Defining Defenders branded color palettes
+defenders_palettes <- list(
+  `main` = defenders_cols("orange", "brown", "red", "yellow", "dkgreen", "ltgreen", "blue", "purple"),
+  `warm gradient` = defenders_cols("yellow", "red"),
+  `warm` = defenders_cols("red", "orange", "yellow"),
+  `cool gradient` = defenders_cols("gray", "blue"),
+  `natural` = defenders_cols("dkgreen", "ltgreen", "brown", "blue"),
+  `classic` = defenders_cols("orange", "blue")
+)
+
+defenders_pal <- function(palette = "main", reverse = FALSE, ...) {
+  pal <- defenders_palettes[[palette]]
+  
+  if (reverse) pal <- rev(pal)
+  
+  colorRampPalette(pal, ...)
+}
+
+scale_color_defenders <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
+  pal <- defenders_pal(palette = palette, reverse = reverse)
+  
+  if (discrete) {
+    discrete_scale("colour", paste0("defenders_", palette), palette = pal, ...)
+  } else {
+    scale_color_gradientn(colours = pal(256), ...)
+  }
+}
+
+scale_fill_defenders <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
+  pal <- defenders_pal(palette = palette, reverse = reverse)
+  
+  if (discrete) {
+    discrete_scale("fill", paste0("defenders_", palette), palette = pal, ...)
+  } else {
+    scale_fill_gradientn(colours = pal(256), ...)
+  }
+}
+
+
+
+# TESTS
+ggplot(mtcars, aes(hp, mpg)) +
+  geom_point(color = defenders_cols("red"),
+             size = 4, alpha = .8)
+
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
+  geom_point(size = 4) +
+  scale_color_defenders("warm")
+
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
+  geom_point(size = 4, alpha = .6) +
+  scale_color_defenders(discrete = FALSE, palette = "warm gradient")

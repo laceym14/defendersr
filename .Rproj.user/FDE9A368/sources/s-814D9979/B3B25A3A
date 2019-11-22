@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574456524642.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B3B25A3A",
+    "lastKnownWriteTime" : 1574457705,
+    "last_content_update" : 1574457705627,
+    "path" : "C:/Users/mlacey/defendersr/tests/testthat/test-defenders_palettes.R",
+    "project_path" : "tests/testthat/test-defenders_palettes.R",
+    "properties" : {
+        "cursorPosition" : "11,56",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
