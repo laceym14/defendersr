@@ -4,4 +4,160 @@
 [0;32mMLacey@DCA-MLacey [0;35m [0;33m~/defendersr[0m[0K
 ]0;:/c/Users/mlacey/defendersr[?25l
 [0;32mMLacey@DCA-MLacey [0;35m [0;33m~/defendersr[0m[0K
-$[0K[3G[?25h
+]0;:/c/Users/mlacey/defendersr[?25l
+[0;32mMLacey@DCA-MLacey [0;35m [0;33m~/defendersr[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ c[0K[?25hd[0K[6G[?25l$ cd .[0K[?25h.[0K[?25l
+[0K[?25h]0;:/c/Users/mlacey[?25l
+[0;32mMLacey@DCA-MLacey [0;35m [0;33m~[0m[0K
+$[0K[3G[?25h[?25l$ c[0K[?25hd[0K[6G[?25l$ cd C[0K[?25hC[0KI[0K[?25l
+CCI-site/           CCI_seminar_videos/[0K
+[0K
+[0;32mMLacey@DCA-MLacey [0;35m [0;33m~[0m[0K
+$ cd CCI[0K[?25h-[0Ks[0Ki[0Kt[0Ke[0K/[0K[?25l
+[0K[?25h]0;:/c/Users/mlacey/CCI-site[?25l
+[0;32mMLacey@DCA-MLacey [0;35m [0;33m~/CCI-site[0;36m (master)[0m[0K
+$[0K[1A[?25h[?25l
+[3G[?25h[?25l$ h[0K[?25hu[0Kg[0Ko[0K[?25l
+[0K[?25hBuilding sites …[0K[18G[?25lBuilding sites … WARN 2019/11/25 10:49:13 Data for key 'menu_primary' in path 'academic\themes\default.toml' is overridden by higher pr[0Ke
+cedence data already in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'home_section_odd' in path 'academic\themes\default.toml' is overridden by higher precedence data[0K
+already in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'home_section_even' in path 'academic\themes\default.toml' is overridden by higher precedence dat[0Ka
+ already in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'name' in path 'academic\themes\default.toml' is overridden by higher precedence data already in [0Kt
+he data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'light' in path 'academic\themes\default.toml' is overridden by higher precedence data already in[0K
+the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'primary' in path 'academic\themes\default.toml' is overridden by higher precedence data already [0Ki
+n the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'primary_light' in path 'academic\themes\default.toml' is overridden by higher precedence data al[0Kr
+eady in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'primary_dark' in path 'academic\themes\default.toml' is overridden by higher precedence data alr[0Ke
+ady in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'menu_text' in path 'academic\themes\default.toml' is overridden by higher precedence data alread[0Ky
+ in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'menu_text_active' in path 'academic\themes\default.toml' is overridden by higher precedence data[0K
+already in the data tree[0K
+WARN 2019/11/25 10:49:13 Data for key 'menu_title' in path 'academic\themes\default.toml' is overridden by higher precedence data alrea[0Kd
+y in the data tree[0K
+[0K[?25hWARN 2019/11/25 10:49:13 Page's .Hugo is deprecated and will be removed in a future release. Use the global hugo function.[0K[?25l
+WARN 2019/11/25 10:49:13 Page's .RSSLink is deprecated and will be removed in a future release. Use the Output Format's link, e.g. some[0Kt
+hing like:[0K
+    {{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}.[0K
+[0K[?25hWARN 2019/11/25 10:49:13 Page's .Dir is deprecated and will be removed in a future release. Use .File.Dir.[0K[?25l
+[0K[?25hWARN 2019/11/25 10:49:14 Page's .UniqueID is deprecated and will be removed in a future release. Use .File.UniqueID.[0K[?25l
+[0K[?25hWARN 2019/11/25 10:49:14 Page's .URL is deprecated and will be removed in a future release. Use .Permalink or .RelPermalink. If what yo[0Ku[?25l
+ want is the front matter URL value, use .Params.url.[0K
+[0K[?25h[?25l
+                   | EN[0K
++------------------+-----+[0K
+  Pages            | 674[0K
+  Paginator pages  |  38[0K
+  Non-page files   |   0[0K
+  Static files     |  87[0K
+  Processed images | 525[0K
+  Aliases          |  84[0K
+  Sitemaps         |   1[0K
+  Cleaned          |   0[0K
+[0K
+Total in 1582 ms[0K
+[0K[?25h[?25l
+[0;32mMLacey@DCA-MLacey [0;35m [0;33m~/CCI-site[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ h[0K[?25hu[0Kg[0Ko[0K[?25l
+[0K[?25hBuilding sites …[0K[18G[?25lBuilding sites … WARN 2019/11/25 10:50:52 Data for key 'home_section_odd' in path 'academic\themes\default.toml' is overridden by highe[0Kr
+ precedence data already in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'home_section_even' in path 'academic\themes\default.toml' is overridden by higher precedence dat[0Ka
+ already in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'name' in path 'academic\themes\default.toml' is overridden by higher precedence data already in [0Kt
+he data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'primary' in path 'academic\themes\default.toml' is overridden by higher precedence data already [0Ki
+n the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'primary_light' in path 'academic\themes\default.toml' is overridden by higher precedence data al[0Kr
+eady in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'primary_dark' in path 'academic\themes\default.toml' is overridden by higher precedence data alr[0Ke
+ady in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'menu_primary' in path 'academic\themes\default.toml' is overridden by higher precedence data alr[0Ke
+ady in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'menu_text' in path 'academic\themes\default.toml' is overridden by higher precedence data alread[0Ky
+ in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'light' in path 'academic\themes\default.toml' is overridden by higher precedence data already in[0K
+the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'menu_text_active' in path 'academic\themes\default.toml' is overridden by higher precedence data[0K
+already in the data tree[0K
+WARN 2019/11/25 10:50:52 Data for key 'menu_title' in path 'academic\themes\default.toml' is overridden by higher precedence data alrea[0Kd
+y in the data tree[0K
+WARN 2019/11/25 10:50:52 Page's .Hugo is deprecated and will be removed in a future release. Use the global hugo function.[0K
+WARN 2019/11/25 10:50:52 Page's .RSSLink is deprecated and will be removed in a future release. Use the Output Format's link, e.g. some[0Kt
+hing like:[0K
+    {{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}.[0K
+[0K[?25hWARN 2019/11/25 10:50:52 Page's .Dir is deprecated and will be removed in a future release. Use .File.Dir.[0K[?25l
+[0K[?25hWARN 2019/11/25 10:50:53 Page's .UniqueID is deprecated and will be removed in a future release. Use .File.UniqueID.[0K[?25l
+WARN 2019/11/25 10:50:53 Page's .URL is deprecated and will be removed in a future release. Use .Permalink or .RelPermalink. If what yo[0Ku
+ want is the front matter URL value, use .Params.url.[0K
+[0K[?25h[?25l
+                   | EN[0K
++------------------+-----+[0K
+  Pages            | 674[0K
+  Paginator pages  |  38[0K
+  Non-page files   |   0[0K
+  Static files     |  87[0K
+  Processed images | 525[0K
+  Aliases          |  84[0K
+  Sitemaps         |   1[0K
+  Cleaned          |   0[0K
+[0K
+Total in 1369 ms[0K
+[0K[?25h[?25l
+[0;32mMLacey@DCA-MLacey [0;35m [0;33m~/CCI-site[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ hu[0K[4G[?25h[5G[?25l$ hug[0K[?25ho[0K[8G[?25l$ hugo s[0K[?25he[0Kr[0Kv[0Ke[0Kr[0K[?25l
+[0K[?25hBuilding sites …[0K[18G[?25lBuilding sites … WARN 2019/11/25 10:52:15 Data for key 'name' in path 'academic\themes\default.toml' is overridden by higher precedence[0K
+data already in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'primary_light' in path 'academic\themes\default.toml' is overridden by higher precedence data al[0Kr
+eady in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'primary_dark' in path 'academic\themes\default.toml' is overridden by higher precedence data alr[0Ke
+ady in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'menu_primary' in path 'academic\themes\default.toml' is overridden by higher precedence data alr[0Ke
+ady in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'home_section_even' in path 'academic\themes\default.toml' is overridden by higher precedence dat[0Ka
+ already in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'light' in path 'academic\themes\default.toml' is overridden by higher precedence data already in[0K
+the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'primary' in path 'academic\themes\default.toml' is overridden by higher precedence data already [0Ki
+n the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'menu_text' in path 'academic\themes\default.toml' is overridden by higher precedence data alread[0Ky
+ in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'menu_text_active' in path 'academic\themes\default.toml' is overridden by higher precedence data[0K
+already in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'menu_title' in path 'academic\themes\default.toml' is overridden by higher precedence data alrea[0Kd
+y in the data tree[0K
+WARN 2019/11/25 10:52:15 Data for key 'home_section_odd' in path 'academic\themes\default.toml' is overridden by higher precedence data[0K
+already in the data tree[0K
+WARN 2019/11/25 10:52:15 Page's .Hugo is deprecated and will be removed in a future release. Use the global hugo function.[0K
+WARN 2019/11/25 10:52:15 Page's .RSSLink is deprecated and will be removed in a future release. Use the Output Format's link, e.g. some[0Kt
+hing like:[0K
+    {{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}.[0K
+[0K[?25hWARN 2019/11/25 10:52:15 Page's .Dir is deprecated and will be removed in a future release. Use .File.Dir.[0K[?25l
+[0K[?25hWARN 2019/11/25 10:52:16 Page's .UniqueID is deprecated and will be removed in a future release. Use .File.UniqueID.[0K[?25l
+[0K[?25hWARN 2019/11/25 10:52:16 Page's .URL is deprecated and will be removed in a future release. Use .Permalink or .RelPermalink. If what yo[0Ku[?25l
+ want is the front matter URL value, use .Params.url.[0K
+[0K
+                   | EN[0K
++------------------+-----+[0K
+  Pages            | 674[0K
+  Paginator pages  |  38[0K
+  Non-page files   |   0[0K
+  Static files     |  87[0K
+  Processed images | 524[0K
+  Aliases          |  84[0K
+  Sitemaps         |   1[0K
+  Cleaned          |   0[0K
+[0K
+Total in 1038 ms[0K
+[0K[?25hWatching for changes in C:\Users\mlacey\CCI-site\{assets,content,data,layouts,static,themes}[0K[?25l
+[0K[?25hWatching for config changes in , C:\Users\mlacey\CCI-site\config\_default[0K[?25l
+Environment: "development"[0K
+Serving pages from memory[0K
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender[0K
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)[0K
+Press Ctrl+C to stop[0K
+[0K[?25h
