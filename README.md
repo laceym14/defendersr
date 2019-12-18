@@ -31,7 +31,6 @@ scale_fill_defenders()
 - Tan (#f4eedc)
 
 # Land Ownership Colors Included: 
-## (based on https://www.ntc.blm.gov/krc/uploads/223/Ownership_Map_Color_Reference_Sheet.pdf)
 - BLM (#fee679)
 - BLM Wilderness Area (#fecb5c)
 - USFS (ccebc5)
@@ -50,3 +49,5 @@ scale_fill_defenders()
 - State Wilderness Area (#6bcee2")
 - State Wildlife, Park, Outdoor Rec (#8fb5be)
 - Private Land (#ffffff)
+**(based on https://www.ntc.blm.gov/krc/uploads/223/Ownership_Map_Color_Reference_Sheet.pdf)**
+
