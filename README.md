@@ -50,5 +50,5 @@ scale_fill_defenders()
 - State Wildlife, Park, Outdoor Rec (#8fb5be)
 - Private Land (#ffffff)
 
-##*(color selection based on https://www.ntc.blm.gov/krc/uploads/223/Ownership_Map_Color_Reference_Sheet.pdf)*
+*(color selection based on https://www.ntc.blm.gov/krc/uploads/223/Ownership_Map_Color_Reference_Sheet.pdf)*
 
