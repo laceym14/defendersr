@@ -4,7 +4,12 @@
 
 # Functions:
 scale_color_defenders()
+
 scale_fill_defenders()
+
+scale_color_land()
+
+scale_fill_land()
 
 # Color palettes available:
 - Main (Defenders of Wildlife classic branding colors: orange, brown, red, yellow, dark green, light green, blue, purple)
