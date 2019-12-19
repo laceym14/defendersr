@@ -11,6 +11,8 @@ scale_color_land()
 
 scale_fill_land()
 
+Determine what colors are available by calling Defenders_colors() or land_ownership()
+
 # Color palettes available:
 - Main (Defenders of Wildlife classic branding colors: orange, brown, red, yellow, dark green, light green, blue, purple)
 - Warm gradient (Yellow, red)
