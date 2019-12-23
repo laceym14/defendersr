@@ -2,7 +2,7 @@
 # Modelled after @drismonj tutorial. Learn more at
 # https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2
 
-# Defining Defenders branded color palettes
+# Defining standard land ownership color palettes
 land_palettes <- list(
   `BLM` = land_ownership_cols("BLM"),
   `BLM Wilderness Area` = land_ownership_cols("BLM Wilderness Area"),
@@ -26,6 +26,36 @@ land_palettes <- list(
 
 land_pal <- function(palette = "main", reverse = FALSE, ...) {
   pal <- land_palettes[[palette]]
+
+  if (reverse) pal <- rev(pal)
+
+  colorRampPalette(pal, ...)
+}
+
+
+# Defining National Park Service standard color palettes
+nps_palettes <- list(
+  `full palette` = nps_cols("white", "brown", "green", "light green", "gray", "blue")
+)
+
+nps_pal <- function(palette = "main", reverse = FALSE, ...) {
+  pal <- nps_palettes[[palette]]
+
+  if (reverse) pal <- rev(pal)
+
+  colorRampPalette(pal, ...)
+}
+
+
+# Defining color blind friendly color palettes
+color_blind_palettes <- list(
+  `color blind 1` = color_blind_cols("red", "peach", "cream", "light blue", "blue", "dark blue"),
+  `color blind 2` = color_blind_cols("orange red", "orange", "yellow", "light blue 2", "blue 2", "dark blue 2"),
+  `color blind 3` = color_blind_cols("brown", "light brown", "tan", "teal", "turquoise", "green")
+)
+
+color_blind_pal <- function(palette = "main", reverse = FALSE, ...) {
+  pal <- color_blind_palettes[[palette]]
 
   if (reverse) pal <- rev(pal)
 
