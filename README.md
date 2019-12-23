@@ -11,7 +11,7 @@
 
 **Color blind friendly color ramps:** scale_color_cb(), scale_fill_cb()
 
-Determine what colors are available in each palette by calling Defenders_colors(), land_ownership(), nps_colors(), cb_colors()
+Determine what colors are available in each palette by calling Defenders_colors(), land_ownership(), nps_colors(), or cb_colors()
 
 # Color palettes available:
 ## Defenders of Wildlife Branding:
@@ -34,7 +34,7 @@ Determine what colors are available in each palette by calling Defenders_colors(
 - color blind 2 (Orange-red, orange, yellow, light blue, blue, dark blue)
 - color blind 3 (Brown, light brown, tan, teal, turquoise, green)
 
-# Each color palette incorporates its respective set of color, hex values provided below:
+# Each color palette incorporates its respective set of colors, hex values provided below:
 ## Defenders of Wildlife Branded Colors:
 - Orange (#e36f1e)
 - Brown (#b2740e)
