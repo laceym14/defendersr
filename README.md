@@ -62,7 +62,7 @@ ggplot(mtcars, aes(factor(cyl), mpg, fill = factor(am))) +
 <img src="man/figures/ggplot_fig4.png" width="400" style="display: block; margin: auto;" />
 
 
-If you simply want a hex value for any color in the palettes offered, simply follow the examples below:
+If you want a hex value for any color in the palettes offered, simply follow the examples below:
 ```r  
 > Defenders_colors() # Get list of Defenders branding color hex codes
 orange     brown       red    yellow   dkgreen   ltgreen      blue    purple      gray       tan 
@@ -92,16 +92,8 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 # Color palettes available:
 ## Defenders of Wildlife Branding:
-- Main (Defenders of Wildlife classic branding colors: orange, brown, red, yellow, dark green, light green, blue, purple)
-- Warm gradient (Yellow, red)
-- Warm (Red, orange, yellow)
-- Cool gradient (Gray, blue)
-- Natural (Dark green, light green, brown, blue)
-- Classic (Orange, blue)
-- Trio (Red, purple, blue)
-- Traffic light (Red, yellow, dark green)
-- Oranges (Brown, red, orange, yellow)
-- Blues (Light green, dark green, blue, purple)
+
+<img src="man/figures/defenders_pal.png" width="400" style="display: block; margin: auto;" />
 
 ## National Park Service Full Palette:
 - full palette (Wite, brown, green, light green, gray, blue)
@@ -127,7 +119,7 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 ## Land Ownership Colors: 
 - BLM (#fee679)
 - BLM Wilderness Area (#fecb5c)
-- USFS (ccebc5)
+- USFS (#ccebc5)
 - USFS Wilderness Area (#99d594)
 - NPS (#cabddc)
 - NPS Wilderness Area (#b189c1)
