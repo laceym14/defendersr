@@ -1,17 +1,17 @@
 # defendersr
 
-## Defenders of Wildlife branded color palettes for use in developing scientific figures using ggplot. Modelled after @drismonj tutorial. Learn more at https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2.
+Defenders of Wildlife branded color palettes for use in developing scientific figures using ggplot. Modelled after @drismonj tutorial. Learn more at https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2.
 
 # Functions:
-**Defenders of Wildlife:** scale_color_defenders(), scale_fill_defenders()
+**Defenders of Wildlife:** `scale_color_defenders()`, `scale_fill_defenders()`
 
-**Standard land ownership:** scale_color_land(), scale_fill_land()
+**Standard land ownership:** `scale_color_land()`, `scale_fill_land()`
 
-**National Park Service map colors:** scale_color_nps(), scale_fill_nps()
+**National Park Service map colors:** `scale_color_nps()`, `scale_fill_nps()`
 
-**Color blind friendly color ramps:** scale_color_cb(), scale_fill_cb()
+**Color blind friendly color ramps:** `scale_color_cb()`, `scale_fill_cb()`
 
-Determine what colors are available in each palette by calling Defenders_colors(), land_ownership(), nps_colors(), or cb_colors()
+Determine what colors are available in each palette by calling `Defenders_colors()`, `land_ownership()`, `nps_colors()`, or `cb_colors()`
 
 # Color palettes available:
 ## Defenders of Wildlife Branding:
