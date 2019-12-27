@@ -95,8 +95,9 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 <img src="man/figures/defenders_pal.png" width="600" style="display: block; margin: auto;" />
 
-## National Park Service Full Palette:
-- full palette (Wite, brown, green, light green, gray, blue)
+## National Park Service Maps:
+
+<img src="man/figures/full_palette.png" width="600" style="display: block; margin: auto;" />
 
 ## Color Blind Friendly Color Ramps:
 - color blind 1 (Red, peach, cream, light blue, blue, dark blue)
