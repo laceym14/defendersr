@@ -33,7 +33,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
   scale_color_defenders("warm") +
   theme_classic()
 ```
-<img src="man/figures/ggplot_fig1.png" width="400" style="display: block; margin: auto;" />
+<img src="man/figures/ggplot_fig1.png" width="500" style="display: block; margin: auto;" />
 
 ```r  
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
@@ -41,7 +41,7 @@ ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
   scale_color_defenders(discrete = FALSE, palette = "cool gradient") +
   theme_dark()
 ```
-<img src="man/figures/ggplot_fig2.png" width="400" style="display: block; margin: auto;" />
+<img src="man/figures/ggplot_fig2.png" width="500" style="display: block; margin: auto;" />
 
 ```r  
 ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
@@ -49,7 +49,7 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_fill_defenders(palette = "main", guide = "none")
 ```
-<img src="man/figures/ggplot_fig3.png" width="400" style="display: block; margin: auto;" />
+<img src="man/figures/ggplot_fig3.png" width="700" style="display: block; margin: auto;" />
 
   
 ```r  
@@ -59,7 +59,7 @@ ggplot(mtcars, aes(factor(cyl), mpg, fill = factor(am))) +
   ggtitle("Defenders of Wildlife Classic Color Palette") +
   theme_bw()
 ```
-<img src="man/figures/ggplot_fig4.png" width="400" style="display: block; margin: auto;" />
+<img src="man/figures/ggplot_fig4.png" width="500" style="display: block; margin: auto;" />
 
 
 If you want a hex value for any color in the palettes offered, simply follow the examples below:
@@ -93,7 +93,7 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 # Color palettes available:
 ## Defenders of Wildlife Branding:
 
-<img src="man/figures/defenders_pal.png" width="400" style="display: block; margin: auto;" />
+<img src="man/figures/defenders_pal.png" width="600" style="display: block; margin: auto;" />
 
 ## National Park Service Full Palette:
 - full palette (Wite, brown, green, light green, gray, blue)
