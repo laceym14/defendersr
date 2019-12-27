@@ -97,12 +97,11 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 ## National Park Service Maps:
 
-<img src="man/figures/full_palette.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/full_palette.png" width="500" style="display: block; margin: auto;" />
 
 ## Color Blind Friendly Color Ramps:
-- color blind 1 (Red, peach, cream, light blue, blue, dark blue)
-- color blind 2 (Orange-red, orange, yellow, light blue, blue, dark blue)
-- color blind 3 (Brown, light brown, tan, teal, turquoise, green)
+
+<img src="man/figures/color_blind.png" width="600" style="display: block; margin: auto;" />
 
 # Each color palette incorporates its respective set of colors, hex values provided below:
 ## Defenders of Wildlife Branded Colors:
@@ -157,7 +156,7 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 - dark blue (#2166ac)
 ### Palette 2:
 - orange red (#d73027)
-- oragne (#fc8d59)
+- orange (#fc8d59)
 - yellow (#fee090)
 - light blue (#e0f3f8)
 - blue (#91bfdb)
