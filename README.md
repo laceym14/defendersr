@@ -2,16 +2,91 @@
 
 Defenders of Wildlife branded color palettes for use in developing scientific figures using ggplot. Modelled after @drismonj tutorial. Learn more at https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2.
 
+## Installation
+For easy installation, use the `devtools` package
+
+```r
+install.packages("devtools")  # if you don't already have devtools installed; this may take several minutes
+devtools::install_github("laceym14/defendersr")
+```
+
 # Functions:
 **Defenders of Wildlife:** `scale_color_defenders()`, `scale_fill_defenders()`
 
-**Standard land ownership:** `scale_color_land()`, `scale_fill_land()`
+**Standard land ownership colors for mapping:** `scale_color_land()`, `scale_fill_land()`
 
 **National Park Service map colors:** `scale_color_nps()`, `scale_fill_nps()`
 
 **Color blind friendly color ramps:** `scale_color_cb()`, `scale_fill_cb()`
 
-Determine what colors are available in each palette by calling `Defenders_colors()`, `land_ownership()`, `nps_colors()`, or `cb_colors()`
+Determine what colors are available in each palette by calling `Defenders_colors()`, `land_ownership()`, `nps_colors()`, or `cb_colors()`. All color palettes are listed below.
+
+# Examples
+```r
+# install.packages("ggplot2") # if you don't already have ggplot2 installed
+library(defendersr)
+library(ggplot2)
+
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
+  geom_point(size = 4) +
+  scale_color_defenders("warm") +
+  theme_classic()
+```
+<img src="man/figures/ggplot_fig1.png" width="400" style="display: block; margin: auto;" />
+
+```r  
+ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
+  geom_point(size = 10, alpha = .6) +
+  scale_color_defenders(discrete = FALSE, palette = "cool gradient") +
+  theme_dark()
+```
+<img src="man/figures/ggplot_fig2.png" width="400" style="display: block; margin: auto;" />
+
+```r  
+ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
+  geom_bar() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_defenders(palette = "main", guide = "none")
+```
+<img src="man/figures/ggplot_fig3.png" width="400" style="display: block; margin: auto;" />
+
+  
+```r  
+ggplot(mtcars, aes(factor(cyl), mpg, fill = factor(am))) +
+  geom_bar(stat = "identity", position = "dodge", color = "grey40") +
+  scale_fill_defenders(palette = "classic", guide = "none") +
+  ggtitle("Defenders of Wildlife Classic Color Palette") +
+  theme_bw()
+```
+<img src="man/figures/ggplot_fig4.png" width="400" style="display: block; margin: auto;" />
+
+
+```r  
+> Defenders_colors() # Get list of Defenders branding color hex codes
+orange     brown       red    yellow   dkgreen   ltgreen      blue    purple      gray       tan 
+"#e36f1e" "#b2740e" "#db1537" "#ffcf00" "#00583d" "#387c2b" "#005596" "#7a3777" "#e6e3dd" "#f4eedc"
+
+> land_ownership() # Get list of standard land ownership colors
+                                                              BLM                                               BLM Wilderness Area 
+                                                        "#fee679"                                                         "#fecb5c" 
+                                                             USFS                                              USFS Wilderness Area 
+                                                        "#ccebc5"                                                         "#99d594" 
+                                                              NPS                                               NPS Wilderness Area 
+                                                        "#cabddc"                                                         "#b189c1" 
+                                                        USFWS NWR                                             USFWS Wilderness Area 
+                                                        "#7fcca7"                                                         "#66bf7f" 
+                                              National Grasslands                                             Bureau of Reclamation 
+                                                        "#e6f5b1"                                                         "#ffffb3" 
+                                               Indian Reservation                                Indian Reservation Wilderness Area 
+                                                        "#fdb46c"                                                         "#fd9a52" 
+                     Military Reservations and Corps of Engineers                                                Other Federal Land 
+                                                        "#fbb4ce"                                                         "#e4c49f" 
+                                                       State Land                                             State Wilderness Area 
+                                                        "#b3e3ee"                                                         "#6bcee2" 
+State, County, City; Wildlife, Park, and Outdoor Recreation Areas                                                      Private Land 
+                                                        "#8fb5be"                                                         "#ffffff" 
+
+```
 
 # Color palettes available:
 ## Defenders of Wildlife Branding:
@@ -99,4 +174,6 @@ Determine what colors are available in each palette by calling `Defenders_colors
 - teal (#c7eae5)
 - turquoise (#5ab4ac)
 - green (#01665e)
+
+
 
