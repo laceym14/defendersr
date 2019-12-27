@@ -1,5 +1,4 @@
-# defendersr
-Defenders <img src = "man/figures/defenders.png" align = "right" alt = "Defenders::" width = "150px" />
+defendersr <img src = "man/figures/defenders.png" align = "right" alt = "Defenders::" width = "150px" />
 ==========================================================================================
 
 Defenders of Wildlife branded color palettes for use in developing scientific figures using ggplot. Modelled after @drismonj tutorial. Learn more at https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2.
