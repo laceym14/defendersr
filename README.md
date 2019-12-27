@@ -10,7 +10,7 @@ install.packages("devtools")  # if you don't already have devtools installed; th
 devtools::install_github("laceym14/defendersr")
 ```
 
-## Functions:
+## Functions
 **Defenders of Wildlife:** `scale_color_defenders()`, `scale_fill_defenders()`
 
 **Standard land ownership colors for mapping:** `scale_color_land()`, `scale_fill_land()`
@@ -90,7 +90,7 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 ```
 
-# Color palettes available:
+# Color palettes available
 ## Defenders of Wildlife Branding:
 
 <img src="man/figures/defenders_pal.png" width="600" style="display: block; margin: auto;" />
@@ -103,7 +103,10 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 <img src="man/figures/color_blind.png" width="550" style="display: block; margin: auto;" />
 
-# Each color palette incorporates its respective set of colors, hex values provided below:
+## Hex values 
+Each color palette incorporates its respective set of colors, hex values provided below:
+
+
 ## Defenders of Wildlife Branded Colors:
 - Orange (#e36f1e)
 - Brown (#b2740e)
