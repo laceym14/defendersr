@@ -10,7 +10,7 @@ install.packages("devtools")  # if you don't already have devtools installed; th
 devtools::install_github("laceym14/defendersr")
 ```
 
-# Functions:
+## Functions:
 **Defenders of Wildlife:** `scale_color_defenders()`, `scale_fill_defenders()`
 
 **Standard land ownership colors for mapping:** `scale_color_land()`, `scale_fill_land()`
@@ -21,7 +21,8 @@ devtools::install_github("laceym14/defendersr")
 
 Determine what colors are available in each palette by calling `Defenders_colors()`, `land_ownership()`, `nps_colors()`, or `cb_colors()`. All color palettes are listed below.
 
-# Examples
+## Examples
+Some examples with ggplot:
 ```r
 # install.packages("ggplot2") # if you don't already have ggplot2 installed
 library(defendersr)
@@ -61,6 +62,7 @@ ggplot(mtcars, aes(factor(cyl), mpg, fill = factor(am))) +
 <img src="man/figures/ggplot_fig4.png" width="400" style="display: block; margin: auto;" />
 
 
+If you simply want a hex value for any color in the palettes offered, simply follow the examples below:
 ```r  
 > Defenders_colors() # Get list of Defenders branding color hex codes
 orange     brown       red    yellow   dkgreen   ltgreen      blue    purple      gray       tan 
