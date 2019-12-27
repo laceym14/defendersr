@@ -97,11 +97,11 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 ## National Park Service Maps:
 
-<img src="man/figures/full_palette.png" width="500" style="display: block; margin: auto;" />
+<img src="man/figures/full_palette.png" width="550" style="display: block; margin: auto;" />
 
 ## Color Blind Friendly Color Ramps:
 
-<img src="man/figures/color_blind.png" width="600" style="display: block; margin: auto;" />
+<img src="man/figures/color_blind.png" width="550" style="display: block; margin: auto;" />
 
 # Each color palette incorporates its respective set of colors, hex values provided below:
 ## Defenders of Wildlife Branded Colors:
