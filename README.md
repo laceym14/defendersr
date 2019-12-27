@@ -103,7 +103,7 @@ State, County, City; Wildlife, Park, and Outdoor Recreation Areas               
 
 <img src="man/figures/color_blind.png" width="550" style="display: block; margin: auto;" />
 
-## Hex values 
+# Hex values 
 Each color palette incorporates its respective set of colors, hex values provided below:
 
 
